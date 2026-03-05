@@ -1,0 +1,56 @@
+# -----------------------------
+# Python cache files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+env/
+env311/
+venv/
+.venv/
+
+# -----------------------------
+# IDE files
+# -----------------------------
+.idea/
+.vscode/
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Model checkpoints & weights
+# -----------------------------
+checkpoints/
+trained_model_parameters/
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# -----------------------------
+# Dataset folders (if large)
+# -----------------------------
+organized_data/
+image_pairs/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
